@@ -15,22 +15,22 @@ Further information about the applied preprocessing steps are in the next sectio
 
 ## Data Pre Processing 
 
-1 - Filter out deleted scenes;
-2- Remove text in brackets ([]) and put in a new column called actions;
-3- There are 4000+ instances of ??? found in the data mainly in the last two seasons. The ??? replaces … - ’ and “. For now I’m just going to replace all instances with ’ since - that seems to be the majority of the cases
-4- Change speaker to lower case since there is some inconsistent capitalization
-5- Some entries for speakers have actions ([]), which I’ll remove
-6- Fix misspellings in the speaker field (e.g. Micheal instead of Michael)
-7- Remove wrong entries in speaker: By a fast analysis is possible to notice that there are 3 WRONG OCCURENCES, in the set of speakers, these are listed in wrong_entries and will be dropped through a left join.
-8- Remove lines with no text but just actions
+* Filter out deleted scenes;
+* Remove text in brackets ([]) and put in a new column called actions;
+* There are 4000+ instances of ??? found in the data mainly in the last two seasons. The ??? replaces … - ’ and “. For now I’m just going to replace all instances with ’ since - that seems to be the majority of the cases
+* Change speaker to lower case since there is some inconsistent capitalization
+* Some entries for speakers have actions ([]), which I’ll remove
+* Fix misspellings in the speaker field (e.g. Micheal instead of Michael)
+* Remove wrong entries in speaker: By a fast analysis is possible to notice that there are 3 WRONG OCCURENCES, in the set of speakers, these are listed in wrong_entries and will be dropped through a left join.
+* Remove lines with no text but just actions
 
 ## Data Analytics
 
 Several techniques has been used for Data Analytics: 
-1 - TFIDF analysis
-2- Word embeddings
-3- Topic models
-4- Dimensionality reduction
+* TFIDF analysis
+* Word embeddings
+* Topic models
+* Dimensionality reduction
 
 ## Language Model
 
