@@ -13,7 +13,7 @@ The reviews' dataset. Obtained trough Beautiful soup [*External library]. It is 
 
 Further information about the applied preprocessing steps are in the next sections.
 
-## Data Pre Processing 
+## Data Pre Processing 
 
 1 - Filter out deleted scenes;
 2- Remove text in brackets ([]) and put in a new column called actions;
